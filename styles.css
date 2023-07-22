@@ -103,17 +103,22 @@ header {
   background-image: url('./img/list-bg.png');
   display: flex;
   justify-content: flex-start;
+  padding-top: 8px;
   margin-bottom: 3rem;
   box-shadow: 0px 5px 1px gray;
+  font-family: 'Roboto Serif', serif;
+  line-height: 190%;
+  color: rgb(141, 64, 2);
 }
 
 #recipe-card ul {
   margin: 2rem 2rem;
-  font-size: large;
+  font-size: 95%;
+  list-style-type: none;
 }
 
 #recipe-card ul:first-child {
-  margin-right: 8rem;
+  margin-right: 5rem;
 }
 
 #author-info {
