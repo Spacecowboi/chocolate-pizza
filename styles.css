@@ -55,7 +55,7 @@ header {
 
 .bar {
   height: 15px;
-  background-image: url("./img/hr-img.png");
+  background-image: url('./img/hr-img.png');
   margin-bottom: 50px;
 }
 
@@ -65,4 +65,35 @@ header {
 
 #social-links img:nth-child(7) {
   padding-left: 8px;
+}
+
+#pizza-head {
+  display: flex;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+#pizza-head h2 {
+  font-size: 300%;
+  font-weight: 800;
+  line-height: 80%;
+  margin: 0;
+  font-family: 'Big Shoulders Display', cursive;
+}
+
+#pizza-head p {
+  margin: 4px 0;
+  font-size: 80%;
+  font-family: 'Coda', cursive;
+}
+
+#pizza-head svg {
+  color: gray;
+}
+
+#print {
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
