@@ -1,5 +1,6 @@
 body {
-  margin: 0 20%;
+  margin: 0 auto;
+  max-width: 901px;
 }
 
 #author-info {
@@ -49,4 +50,8 @@ header {
 
 .bar {
   background-image: ;
+}
+
+#pizza-picture {
+  margin: 0 auto;
 }
