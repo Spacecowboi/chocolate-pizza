@@ -123,9 +123,9 @@ header {
 }
 
 /* css way to line-through recipe list if checked */
-input[type='checkbox']:checked + span {
+/* input[type='checkbox']:checked + span {
   text-decoration: line-through;
-}
+} */
 
 .checked {
   text-decoration: line-through;
