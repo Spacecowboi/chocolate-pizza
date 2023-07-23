@@ -47,7 +47,6 @@ header {
 .bar {
   height: 15px;
   background-image: url('./img/hr-img.png');
-  /* margin-bottom: 50px; */
 }
 
 #pizza-picture {
@@ -104,11 +103,12 @@ header {
   background-image: url('./img/list-bg.png');
   display: flex;
   justify-content: flex-start;
-  padding-top: 8px;
+  padding-top: 3px;
   margin-bottom: 3rem;
-  box-shadow: 0px 5px 1px gray;
-  font-family: 'Roboto Serif', serif;
-  line-height: 190%;
+  box-shadow: 0px 3px 2px gray;
+  font-size: 130%;
+  font-family: 'Ysabeau Infant', sans-serif;
+  line-height: 150%;
   color: rgb(141, 64, 2);
 }
 
@@ -122,14 +122,19 @@ header {
   margin-right: 5rem;
 }
 
-input[type=checkbox]:checked + span {
-  text-decoration:line-through;
+/* css way to line-through recipe list if checked */
+input[type='checkbox']:checked + span {
+  text-decoration: line-through;
+}
+
+.checked {
+  text-decoration: line-through;
 }
 
 #author-info {
   display: flex;
   position: relative;
-  margin: 2rem 0 4rem;
+  margin: 1rem 0 4rem;
   padding-top: 0rem;
 }
 
@@ -172,6 +177,13 @@ input[type=checkbox]:checked + span {
   font-size: 80%;
 }
 
+#share-button button:hover {
+  background-color: azure;
+  color: rgb(165, 73, 40);
+  border: thin solid rgb(165, 73, 40);
+  transition: 250ms;
+}
+
 hr {
   color: gray;
 }
@@ -182,7 +194,7 @@ hr {
   font-size: 90%;
   line-height: 50%;
   color: gray;
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
 }
 
 #copyright-info img {
@@ -190,5 +202,7 @@ hr {
   height: 30px;
   width: 30px;
   filter: grayscale(1);
-  bottom: 1.5rem;
+  bottom: 2rem;
+  padding: 8px;
+  background-color: white;
 }
